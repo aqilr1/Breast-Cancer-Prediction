@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.stApp {
+    padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50; /* Darker heading color */
+}
+
+/* Custom styling for prediction text */
+.diagnosis {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.benign {
+    background-color: #d4edda; /* Light green */
+    color: #155724; /* Dark green text */
+    border: 1px solid #c3e6cb;
+}
+
+.malicious {
+    background-color: #f8d7da; /* Light red */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #e9ecef; /* Slightly darker sidebar */
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+}
+
+/* Slider labels */
+.stSlider label {
+    font-weight: 500;
+    color: #495057;
+}
+
+/* General text styling */
+.stMarkdown p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Disclaimer box */
+.disclaimer {
+    background-color: #fff3cd; /* Light yellow background */
+    border-left: 5px solid #ffeeba;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: #856404;
+    font-size: 0.9em;
+}
+
+.disclaimer p {
+    margin-bottom: 0;
+}
+
+/* Adjust Streamlit specific elements */
+.stButton>button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #0056b3;
+}
