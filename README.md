@@ -24,6 +24,8 @@ A simple and interactive machine learning web application that predicts whether 
 
 streamlit run app/main.py
 
+---
+
 ## 🧪 Technologies Used
 - Python
 
@@ -36,6 +38,8 @@ streamlit run app/main.py
 - SHAP
 
 - Streamlit
+
+---
 
 ## 🔍 How It Works
 1. Model Training: The model is trained on the Breast Cancer dataset from scikit-learn.
